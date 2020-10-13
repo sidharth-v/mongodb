@@ -9,10 +9,10 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: mongo-4.4
-  image_name: alpha/mongodb
+  image_name: exf/mongodb
 
 deploy:
-  context: alpha/DEV
+  context: exf/DEV
   type: statefulset
   replicas: 1
   port:
