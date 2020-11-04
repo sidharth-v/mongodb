@@ -22,9 +22,9 @@ volumes:
 - claim: mongo-data
   mount: /appz/data
   name: mongo-data
-  #size: 5Gi
-  #mode: ReadWriteOnce
-  #class: microk8s-hostpath
+  size: 5Gi
+  mode: ReadWriteOnce
+  class: local-storage
   
 monitor:
   notify: appzops@cloudbourne.co      
