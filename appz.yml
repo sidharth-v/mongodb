@@ -1,7 +1,7 @@
 app:
   name: AppzMongoDB
   code: AMDB
-  notify: appz@cloudbourne.co
+  notify: svengathattil@ecloudcontrol.com
 
 build:
   version: 4.4
@@ -11,7 +11,7 @@ build:
   image_template: mongo-4.4
   
 deploy:
-  context: alpha/DEV
+  context: sidharth-v/DEV
   type: statefulset
   replicas: 1
   port:
