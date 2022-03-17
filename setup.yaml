@@ -8,4 +8,4 @@ databases:
 acl:
   - database: transit  
     user: sidharth
-    access: dbOwner
+    access: ALL
