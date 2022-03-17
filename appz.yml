@@ -34,4 +34,4 @@ properties:
   AUTH_KEY: 
      vault: AUTH_KEY
   REPLICATION: 5
-  revision : 10
+  revision : 11
