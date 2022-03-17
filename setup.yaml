@@ -1,0 +1,11 @@
+users:
+  - name: sidharth
+    password: $MONGO_SIDHARTH_PASSWORD
+
+databases:
+  - name: transit
+
+acl:
+  - database: transit  
+    user: sidharth
+    access: dbOwner
