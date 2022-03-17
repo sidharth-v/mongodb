@@ -1,19 +1,11 @@
 users:
-  - name: springboot-web
-    password: $MONGO_SPRINGBOOTWEB_PASSWORD
-    
+  - name: sidharth
+    password: $MONGO_SIDHARTH_PASSWORD
+
 databases:
-  - name: springboot_web
-  
+  - name: transit
+
 acl:
-  - database: springboot_web
-    user: springboot-web
-    access: ALL
-    
-restore:
-  - database: springboot_web
-    source:
-       url: 'https://www.ecloudcontrol.com/wp-content/uploads/2020/12/accountdb_20201210.zip'
-    user: root
-    password: $MONGO_ROOT_PASSWORD_KEY  # password of the 'user' above.
-    token: 20220317-0707  # The restore token to be validated before restoring the database. (Same as TEARDOWN_TOKEN)
+  - database: transit  
+    user: sidharth
+    access: dbOwner
