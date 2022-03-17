@@ -13,7 +13,7 @@ build:
 deploy:
   context: sidharth-v/DEV
   type: statefulset
-  replicas: 3
+  replicas: 5
   port:
   - 27017
   - 9216
@@ -33,5 +33,5 @@ properties:
      vault: MONGO_SIDHARTH_PASSWORD
   AUTH_KEY: 
      vault: AUTH_KEY
-  REPLICATION: 3
+  REPLICATION: 5
   revision : 10
