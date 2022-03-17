@@ -30,4 +30,4 @@ properties:
      vault: MONGO_ROOT_PASSWORD_KEY
   MONGO_SPRINGBOOTWEB_PASSWORD:
      vault: MONGO_SPRINGBOOTWEB_PASSWORD
-  revision : 08
+  revision : 09
