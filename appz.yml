@@ -26,8 +26,7 @@ volumes:
   mode: ReadWriteOnce
   
 properties:
-  MONGO_ROOT_PASSWORD:
-     vault: MONGO_ROOT_PASSWORD_KEY
-  MONGO_SPRINGBOOTWEB_PASSWORD:
-     vault: MONGO_SPRINGBOOTWEB_PASSWORD
+  DB_USER_ADMIN: admin
+  DB_USER_ADMIN_PASSWORD:
+     vault: DB_USER_ADMIN_PASSWORD
   revision : 09
