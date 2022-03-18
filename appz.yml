@@ -13,7 +13,7 @@ build:
 deploy:
   context: sidharth-v/DEV
   type: statefulset
-  ingress: none
+  #ingress: none
   replicas: 5
   port:
   - 27017
