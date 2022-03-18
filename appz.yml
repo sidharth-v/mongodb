@@ -28,7 +28,7 @@ volumes:
 - claim: mongo-key
   mount: /appz/keys
   name: mongo-key
-  size: 500Mib
+  size: 1Gi
   mode: ReadWriteOnce
 
   
